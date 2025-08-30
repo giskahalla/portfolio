@@ -73,14 +73,14 @@ export default function Contact() {
                     <h2 className="card-title">Follow me</h2>
                     <div className="space-x-4">
                         <button className="btn btn-outline" size="sm">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/giskahalla/" target="_blank" rel="noopener noreferrer">
                                 <Github className="h-4 w-4 mr-2" />
                             </a>
                             GitHub
                         </button>
-                        <button className="btn btn-outline"  size="sm">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                            <Linkedin className="h-4 w-4 mr-2" />
+                        <button className="btn btn-outline" size="sm">
+                            <a href="https://www.linkedin.com/in/giska-halla-643253188/" target="_blank" rel="noopener noreferrer">
+                              <Linkedin className="h-4 w-4 mr-2" />
                             </a>
                             LinkedIn
                         </button>

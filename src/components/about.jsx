@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 
 export const About = () => {
   const skills = [
-    { category: 'Frontend', items: ['React', 'Next.js', 'Ant Design', 'Tailwind CSS', 'Redux'] },
+    { category: 'Frontend', items: ['React', 'Next.js', 'Ant Design', 'Tailwind CSS', 'Redux', 'Antv (chart)'] },
     { category: 'Tools', items: ['Git', 'Webpack', 'Vite'] },
   ];
 
@@ -56,11 +56,11 @@ export const About = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <h3 className="text-2xl font-bold mb-2">3+</h3>
+              <h3 className="text-2xl font-bold mb-2">3</h3>
               <p className="text-muted-foreground">Years Experience</p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold mb-2">50+</h3>
+              <h3 className="text-2xl font-bold mb-2">6</h3>
               <p className="text-muted-foreground">Projects Completed</p>
             </div>
             <div>

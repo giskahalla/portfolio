@@ -5,18 +5,31 @@ export default function Experience() {
   const experiences = [
     {
       title: 'Frontend Developer',
-      company: 'Tech Company',
-      location: 'Remote / On-site',
-      duration: '2022 - Present',
-      description: 'Developed and maintained multiple web applications using React, TypeScript, and modern frontend technologies. Collaborated with cross-functional teams to deliver high-quality user experiences and improved application performance by 40%.',
+      company: 'Pinetop',
+      location: 'Remote',
+      duration: 'March 2023 - Present',
+      description: 'Developed and maintained multiple web applications using React, and modern frontend technologies. Collaborated with cross-functional teams to deliver high-quality user experiences and improved application performance',
       achievements: [
-        'Built responsive web applications serving 10,000+ daily users',
-        'Implemented modern UI/UX designs with React and TypeScript',
-        'Collaborated with backend teams to integrate RESTful APIs',
+        'Lead the frontend team in developing and maintaining a high-performance web application',
+        'Built and maintained reusable UI components to support scalable development',
+        'Experienced in developing advanced map-based modules with interactive geospatial features',
         'Optimized application performance and loading times',
-        'Mentored junior developers and conducted code reviews'
+        'Wrote clear technical documentation to support future maintenance and team collaboration'
       ],
-      technologies: ['React', 'TypeScript', 'JavaScript', 'CSS', 'Git', 'Agile']
+      technologies: ['Agile & Collaborative', 'Detail-Oriented']
+    },
+    {
+      title: 'Frontend Developer',
+      company: 'Bayafleet',
+      location: 'On-site',
+      duration: 'October 2023 - July 2025',
+      description: 'Developed and maintained multiple web applications using React, and modern frontend technologies. Collaborated with cross-functional teams to deliver high-quality user experiences and improved application performance',
+      achievements: [
+        'Lead the frontend team in maintaining a high-performance web application',
+        'Optimized frontend performance to deliver a more engaging user experience',
+        'Refactored codebase to enhance maintainability, scalability, and readability',
+      ],
+      technologies: ['Agile & Collaborative', 'Detail-Oriented']
     }
   ];
 
@@ -79,7 +92,7 @@ export default function Experience() {
                         </div>
 
                         <div>
-                            <h4 className="font-semibold mb-3">Technologies Used:</h4>
+                            <h4 className="font-semibold mb-3">Skills & Competencies:</h4>
                             <div className="flex flex-wrap gap-2">
                             {experience.technologies.map((tech) => (
                                 <div className="badge badge-ghost badge-md font-semibold">{tech}</div>
@@ -89,60 +102,9 @@ export default function Experience() {
 
                     </div>
                 </div>
-              {/* <Card className="overflow-hidden">
-                <CardContent className="pt-0">
-                  <p className="text-muted-foreground mb-6">{experience.description}</p>
-                  
-                  <div className="mb-6">
-                    <h4 className="font-semibold mb-3">Key Achievements:</h4>
-                    <ul className="space-y-2">
-                      {experience.achievements.map((achievement, achievementIndex) => (
-                        <li key={achievementIndex} className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                          <span className="text-muted-foreground">{achievement}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold mb-3">Technologies Used:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {experience.technologies.map((tech) => (
-                        <Badge key={tech} variant="secondary">
-                          {tech}
-                        </Badge>
-                      ))}
-                    </div>
-                  </div>
-                </CardContent>
-              </Card> */}
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true }}
-          className="mt-12 text-center"
-        >
-          {/* <Card className="bg-muted/50">
-            <CardContent className="p-8">
-              <h3 className="font-semibold mb-2">Professional Development</h3>
-              <p className="text-muted-foreground mb-4">
-                Continuously learning and staying updated with the latest frontend technologies and best practices.
-              </p>
-              <div className="flex flex-wrap justify-center gap-2">
-                <Badge variant="outline">Continuous Learning</Badge>
-                <Badge variant="outline">Team Collaboration</Badge>
-                <Badge variant="outline">Code Reviews</Badge>
-                <Badge variant="outline">Agile Methodology</Badge>
-              </div>
-            </CardContent>
-          </Card> */}
-        </motion.div>
       </div>
     </section>
   );
