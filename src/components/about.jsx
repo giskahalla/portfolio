@@ -2,8 +2,8 @@ import { motion } from 'motion/react';
 
 export const About = () => {
   const skills = [
-    { category: 'Frontend', items: ['React', 'Next.js', 'Ant Design', 'Tailwind CSS', 'Redux', 'Antv (chart)'] },
-    { category: 'Tools', items: ['Git', 'Webpack', 'Vite'] },
+    { category: 'Frontend', items: ['React', 'Next.js', 'Ant Design', 'Tailwind CSS', 'Redux', 'AntV (G2, Ant Design Plots)', 'Deck.gl'] },
+    { category: 'Tools', items: ['Git', 'Vite'] },
   ];
 
   return (

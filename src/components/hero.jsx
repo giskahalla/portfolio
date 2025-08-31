@@ -61,17 +61,17 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="flex justify-center space-x-6 mb-12"
         >
-          <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="https://github.com/giskahalla/" className="text-muted-foreground hover:text-foreground transition-colors">
             <Github className="h-6 w-6" />
           </a>
-          <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="https://www.linkedin.com/in/giska-halla-643253188/" className="text-muted-foreground hover:text-foreground transition-colors">
             <Linkedin className="h-6 w-6" />
           </a>
-          <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="mailto:giskahalla123@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
             <Mail className="h-6 w-6" />
           </a>
         </motion.div>
-
+ 
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

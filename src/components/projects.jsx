@@ -18,31 +18,31 @@ export default function Projects() {
       title: 'Parcel Management Platform (IPick)',
       description: 'A web application designed to streamline parcel shipment management and tracking with separate portals for Admins, Customers, Hub Staff, and Public Tracking. The app allows each user role to access tailored features like real-time shipment tracking, inventory management, and operational reports.',
       impact: 'Reduced page load times by 40% and improved user satisfaction scores by 25%',
-      technologies: ['React', 'Ant-Design', 'Redux'],
+      technologies: ['React', 'Ant Design', 'Redux'],
     },
     {
       title: 'Employee & Payroll Management Platform (Bolt)',
       description: 'A web application built to simplify employee and employer workflows with integrated payroll management. The app features multiple portals tailored for Employees, Employers, and Admins, offering tools for attendance tracking, payroll automation, and role-based access to organizational data. The dashboard provides visual insights with interactive charts, enabling users to monitor workforce performance, salary distributions, and key HR metrics in real time.',
       impact: 'Increased sales team productivity by 35% and improved lead conversion rates',
-      technologies: ['React', 'Ant-Design', 'Redux', 'Antv G2'],
+      technologies: ['React', 'Ant Design', 'Redux', 'Ant Design Plots'],
     },
     {
       title: 'Durian Plantation Management Platform (KHK)',
       description: 'A web-based platform that streamlines durian plantation operations by digitizing tree inventories, fruit records, and harvest schedules, while mapping tree locations with geospatial tracking for precise monitoring. It manages workforce activities such as task assignments, work schedules, along with vehicle and equipment access control to ensure accountability. A dedicated treatment plan and program module tracks tree health, fertilizer application, and pest control. Interactive dashboards provide insights into yield performance, asset utilization, and operational efficiency. Beyond these core functions, the platform also supports broader plantation needs',
       impact: 'Enabled data-driven decision making for 50+ client organizations',
-      technologies: ['React', 'Ant-Design', 'Redux', 'Antv G2', 'React-gogle-maps'],
+      technologies: ['React', 'Ant Design', 'Redux', 'Antv G2', 'Deck.gl', 'Google Maps API' ],
     },
     {
       title: 'Vehicle & Card Assignment Management Platform (BayaFleet',
       description: 'A platform that streamlines the management of drivers, vehicles, and usage cards within an organization. Managers can assign drivers to vehicles with real-time tracking, while card usage is controlled through restrictions and monitoring to prevent misuse and ensure accountability',
       impact: 'Enabled data-driven decision making for 50+ client organizations',
-      technologies: ['React', 'Ant-Design', 'Redux', 'Antv G2'],
+      technologies: ['React', 'Ant Design', 'Redux', 'Ant Design Plots'],
     },
     {
       title: 'GPS Fleet Monitoring & Fuel Analysis Platform (GPS Fleet)',
       description: 'A web-based GPS tracking platform for managing and analyzing vehicle operations. The system provides real-time monitoring of vehicle routes, fuel consumption analytics, and detailed trip records. It also includes vehicle maintenance tracking to ensure fleet readiness and efficiency.',
       impact: 'Enabled data-driven decision making for 50+ client organizations',
-      technologies: ['React', 'Ant-Design', 'Redux', 'React-gogle-maps'],
+      technologies: ['React', 'Ant Design', 'Redux', 'Google Maps API'],
     }
   ];
 
