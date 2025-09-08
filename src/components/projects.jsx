@@ -3,14 +3,14 @@ import { ExternalLink, Github, Building2 } from 'lucide-react';
 
 export default function Projects() {
   const personalProjects = [
-    {
-      title: 'FlowDash - Dashboard Management',
-      description: 'A web application built to provide an interactive dashboard for visualizing customer data through dynamic charts and reports. The platform also supports core CRUD operations, enabling users to manage customer records efficiently while ensuring data accuracy and accessibility.',
-      image: 'modern dashboard',
-      technologies: ['React', 'Node.js', 'Next.js', 'Tailwind CSS'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
+    // {
+    //   title: 'FlowDash - Dashboard Management',
+    //   description: 'A web application built to provide an interactive dashboard for visualizing customer data through dynamic charts and reports. The platform also supports core CRUD operations, enabling users to manage customer records efficiently while ensuring data accuracy and accessibility.',
+    //   image: 'modern dashboard',
+    //   technologies: ['React', 'Node.js', 'Next.js', 'Tailwind CSS'],
+    //   liveUrl: '#',
+    //   githubUrl: '#'
+    // },
   ];
 
    const professionalProjects = [
@@ -202,6 +202,23 @@ export default function Projects() {
               </motion.div>
             ))}
           </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            viewport={{ once: true }}
+          >
+            <div class="card card-border bg-base-100 border-gray-200 overflow-hidden bg-gray-300">
+              <div className="card-body flex items-center">
+                <div>
+                  <p className="text-sm text-gray-600">
+                    <strong>Personal Project:</strong> Currently in progress.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
 
         </div>
 

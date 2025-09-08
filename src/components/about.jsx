@@ -54,19 +54,19 @@ export const About = () => {
           viewport={{ once: true }}
           className="bg-card rounded-lg p-8 shadow-sm bg-white"
         >
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
             <div>
               <h3 className="text-2xl font-bold mb-2">3</h3>
               <p className="text-muted-foreground">Years Experience</p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-2">6</h3>
-              <p className="text-muted-foreground">Projects Completed</p>
+              <p className="text-muted-foreground">Professional Projects Completed</p>
             </div>
-            <div>
+            {/* <div>
               <h3 className="text-2xl font-bold mb-2">100%</h3>
               <p className="text-muted-foreground">Client Satisfaction</p>
-            </div>
+            </div> */}
           </div>
         </motion.div>
       </div>
