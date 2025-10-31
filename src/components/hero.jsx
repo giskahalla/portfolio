@@ -64,7 +64,7 @@ const Hero = () => {
           <a href="https://github.com/giskahalla/" className="text-muted-foreground hover:text-foreground transition-colors">
             <Github className="h-6 w-6" />
           </a>
-          <a href="https://www.linkedin.com/in/giska-halla-643253188/" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="https://www.linkedin.com/in/giskahalla/" className="text-muted-foreground hover:text-foreground transition-colors">
             <Linkedin className="h-6 w-6" />
           </a>
           <a href="mailto:giskahalla123@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
